@@ -1,3 +1,4 @@
+// alitheflop/asresults/ASResults-928640b90802c6a6f03057aa162c972c6916f2e5/components/sections/ContactForm.jsx
 "use client";
 
 import { useState } from "react";
@@ -5,6 +6,8 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { CheckCircle2 } from "lucide-react";
+
+const FORMSPARK_FORM_ID = "7WNMrPbYB"; // Replace with your actual Formspark Form ID
 
 const ContactForm = () => {
     const [formState, setFormState] = useState({
@@ -20,21 +23,41 @@ const ContactForm = () => {
 
     const [isSubmitting, setIsSubmitting] = useState(false);
     const [isSubmitted, setIsSubmitted] = useState(false);
+    const [error, setError] = useState(null);
 
     const handleChange = (e) => {
         const { name, value } = e.target;
         setFormState((prev) => ({ ...prev, [name]: value }));
     };
 
-    const handleSubmit = (e) => {
+    const handleSubmit = async (e) => {
         e.preventDefault();
         setIsSubmitting(true);
+        setError(null); // Clear previous errors
 
-        // Simulate form submission
-        setTimeout(() => {
-            setIsSubmitting(false);
+        try {
+            const response = await fetch(
+                `https://api.formspark.io/${FORMSPARK_FORM_ID}`,
+                {
+                    method: "POST",
+                    headers: {
+                        "Content-Type": "application/json",
+                        Accept: "application/json",
+                    },
+                    body: JSON.stringify(formState),
+                }
+            );
+
+            if (!response.ok) {
+                const errData = await response.json();
+                throw new Error(
+                    errData.message || "Something went wrong with Formspark."
+                );
+            }
+
             setIsSubmitted(true);
             setFormState({
+                // Reset form fields
                 name: "",
                 companyName: "",
                 email: "",
@@ -44,7 +67,12 @@ const ContactForm = () => {
                 source: "",
                 adSpend: "",
             });
-        }, 1500);
+        } catch (err) {
+            setError(err.message);
+            console.error("Form submission error:", err);
+        } finally {
+            setIsSubmitting(false);
+        }
     };
 
     if (isSubmitted) {
@@ -56,9 +84,15 @@ const ContactForm = () => {
                 <h3 className="text-2xl font-semibold mb-2">Thank You!</h3>
                 <p className="text-muted-foreground mb-4">
                     Your message has been sent successfully. We&apos;ll get back
-                    to you within 48 hours.
+                    to you within 24 hours.
                 </p>
-                <Button variant="outline" onClick={() => setIsSubmitted(false)}>
+                <Button
+                    variant="outline"
+                    onClick={() => {
+                        setIsSubmitted(false);
+                        setError(null); // Clear any errors when showing form again
+                    }}
+                >
                     Send Another Message
                 </Button>
             </div>
@@ -70,6 +104,11 @@ const ContactForm = () => {
             onSubmit={handleSubmit}
             className="bg-card rounded-lg border p-6 shadow-sm"
         >
+            {error && (
+                <div className="mb-4 p-3 bg-destructive/20 text-destructive rounded-md">
+                    <p>Error: {error}</p>
+                </div>
+            )}
             <div className="space-y-4">
                 <div>
                     <label

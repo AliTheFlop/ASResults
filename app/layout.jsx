@@ -7,9 +7,8 @@ import { copperplate } from "@/lib/fonts.js";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-    title: "AS Results | Copy-First Marketing Agency",
-    description:
-        "We prioritize effective copywriting over flashy design to deliver marketing that actually converts.",
+    title: "AS Results | Online Marketing Agency",
+    description: "We guarantee more growth and more clients or you don't pay.",
 };
 
 export default function RootLayout({ children }) {
