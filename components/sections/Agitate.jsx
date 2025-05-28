@@ -13,8 +13,9 @@ const Agitate = () => {
 
                     <div className="grid md:grid-cols-3 gap-8">
                         <div className="bg-background rounded-lg p-6 shadow-sm transition-all hover:shadow-md">
-                            <div className="flex items-center gap-3 mb-4">
-                                <h3 className="text-xl font-semibold text-center w-full">
+                            <div className="flex flex-col items-center gap-4 mb-4">
+                                <Clock className="h-8 w-8 text-primary" />
+                                <h3 className="text-xl font-semibold text-center">
                                     Do Everything Yourself?
                                 </h3>
                             </div>
@@ -27,8 +28,9 @@ const Agitate = () => {
                         </div>
 
                         <div className="bg-background rounded-lg p-6 shadow-sm transition-all hover:shadow-md">
-                            <div className="flex items-center gap-3 mb-4">
-                                <h3 className="text-xl font-semibold text-center w-full">
+                            <div className="flex flex-col items-center gap-4 mb-4">
+                                <UserX className="h-8 w-8 text-primary" />
+                                <h3 className="text-xl font-semibold text-center">
                                     Hire New Staff?
                                 </h3>
                             </div>
@@ -44,8 +46,9 @@ const Agitate = () => {
                         </div>
 
                         <div className="bg-background rounded-lg p-6 shadow-sm transition-all hover:shadow-md">
-                            <div className="flex items-center gap-3 mb-4">
-                                <h3 className="text-xl font-semibold w-full text-center">
+                            <div className="flex flex-col items-center gap-4 mb-4">
+                                <AlertCircle className="h-8 w-8 text-primary" />
+                                <h3 className="text-xl font-semibold text-center">
                                     Hire An Agency?
                                 </h3>
                             </div>
