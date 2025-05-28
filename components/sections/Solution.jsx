@@ -1,0 +1,94 @@
+import { Shield, MapPin, Target, Briefcase } from "lucide-react";
+
+const Solution = () => {
+    return (
+        <section className="py-16 md:py-24 bg-background">
+            <div className="container mx-auto px-4 md:px-6">
+                <div className="max-w-5xl mx-auto">
+                    <div className="text-center mb-12">
+                        <h2 className="text-3xl md:text-4xl font-bold tracking-tight mb-4">
+                            &quot;Ok.. but what makes you different?&quot;
+                        </h2>
+                    </div>
+
+                    <div className="grid md:grid-cols-2 gap-8">
+                        <div className="bg-card rounded-lg p-6 shadow-sm hover:shadow-md transition-all border group">
+                            <div className="flex gap-4">
+                                <div className="bg-blue-100/50 dark:bg-blue-900/50 rounded-full w-12 h-12 flex items-center justify-center group-hover:scale-105 transition-transform">
+                                    <Shield className="h-6 w-6 text-blue-600 dark:text-blue-400" />
+                                </div>
+                                <div>
+                                    <h3 className="text-xl font-semibold mb-2">
+                                        Guarantee
+                                    </h3>
+                                    <p className="text-muted-foreground">
+                                        We only win if you win. That&apos;s the
+                                        basis for a good partnership. You
+                                        won&apos;t carry all the risk,
+                                        we&apos;ll share it.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="bg-card rounded-lg p-6 shadow-sm hover:shadow-md transition-all border group">
+                            <div className="flex gap-4">
+                                <div className="bg-emerald-100/50 dark:bg-emerald-900/50 rounded-full w-12 h-12 flex items-center justify-center group-hover:scale-105 transition-transform">
+                                    <MapPin className="h-6 w-6 text-emerald-600 dark:text-emerald-400" />
+                                </div>
+                                <div>
+                                    <h3 className="text-xl font-semibold mb-2">
+                                        Local
+                                    </h3>
+                                    <p className="text-muted-foreground">
+                                        We are not tucked away in some anonymous
+                                        call center. We&apos;re a local company,
+                                        so you&apos;ll be able to reach us when
+                                        you need us.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="bg-card rounded-lg p-6 shadow-sm hover:shadow-md transition-all border group">
+                            <div className="flex gap-4">
+                                <div className="bg-purple-100/50 dark:bg-purple-900/50 rounded-full w-12 h-12 flex items-center justify-center group-hover:scale-105 transition-transform">
+                                    <Target className="h-6 w-6 text-purple-600 dark:text-purple-400" />
+                                </div>
+                                <div>
+                                    <h3 className="text-xl font-semibold mb-2">
+                                        Results
+                                    </h3>
+                                    <p className="text-muted-foreground">
+                                        Our first priority is to get you
+                                        results. Less talk, more walk.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="bg-card rounded-lg p-6 shadow-sm hover:shadow-md transition-all border group">
+                            <div className="flex gap-4">
+                                <div className="bg-amber-100/50 dark:bg-amber-900/50 rounded-full w-12 h-12 flex items-center justify-center group-hover:scale-105 transition-transform">
+                                    <Briefcase className="h-6 w-6 text-amber-600 dark:text-amber-400" />
+                                </div>
+                                <div>
+                                    <h3 className="text-xl font-semibold mb-2">
+                                        Specialization
+                                    </h3>
+                                    <p className="text-muted-foreground">
+                                        Jack of all trades... Master of none.
+                                        That&apos;s why we work with industries
+                                        we know, so we can guarantee results.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    );
+};
+
+export default Solution;
