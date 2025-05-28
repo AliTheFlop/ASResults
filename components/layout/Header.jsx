@@ -75,7 +75,7 @@ const Header = () => {
                 <div className="md:hidden">
                     <div className="px-2 pt-2 pb-3 space-y-1 bg-background shadow-md">
                         <Link
-                            href="/"
+                            href="/blog"
                             className="block px-3 py-2 rounded-md text-base font-medium hover:bg-muted"
                             onClick={() => setIsMenuOpen(false)}
                         >
@@ -95,7 +95,7 @@ const Header = () => {
                                     href="/contact"
                                     onClick={() => setIsMenuOpen(false)}
                                 >
-                                    Get Started
+                                    Free Marketing Analysis
                                 </Link>
                             </Button>
                         </div>
