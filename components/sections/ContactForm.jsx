@@ -247,7 +247,7 @@ const ContactForm = () => {
                         type="number"
                         value={formState.adSpend}
                         onChange={handleChange}
-                        placeholder="Monthly ad spend in USD"
+                        placeholder="Monthly ad spend"
                         required
                     />
                 </div>
