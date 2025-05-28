@@ -1,5 +1,5 @@
 ---
-title: "The Billion Dollar Agency Blueprint"
+title: "The Billion Dollar Agency Blueprint - Dummy Post"
 date: "2025-05-28"
 author: "Ali Saleh"
 summary: "Discover the foundational elements we use at AS Results to build agency websites that are engineered for massive growth and client acquisition."
