@@ -14,8 +14,8 @@ const Solution = () => {
                     <div className="grid md:grid-cols-2 gap-8">
                         <div className="bg-card rounded-lg p-6 shadow-sm hover:shadow-md transition-all border group">
                             <div className="flex gap-4">
-                                <div className="bg-blue-100/50 dark:bg-blue-900/50 rounded-full w-12 h-12 flex items-center justify-center group-hover:scale-105 transition-transform">
-                                    <Shield className="h-6 w-6 text-blue-600 dark:text-blue-400" />
+                                <div className="bg-blue-100/50 dark:bg-blue-900/50 rounded-full w-14 h-14 flex items-center justify-center group-hover:scale-105 transition-transform shrink-0">
+                                    <Shield className="h-7 w-7 text-blue-600 dark:text-blue-400" />
                                 </div>
                                 <div>
                                     <h3 className="text-xl font-semibold mb-2">
@@ -33,8 +33,8 @@ const Solution = () => {
 
                         <div className="bg-card rounded-lg p-6 shadow-sm hover:shadow-md transition-all border group">
                             <div className="flex gap-4">
-                                <div className="bg-emerald-100/50 dark:bg-emerald-900/50 rounded-full w-12 h-12 flex items-center justify-center group-hover:scale-105 transition-transform">
-                                    <MapPin className="h-6 w-6 text-emerald-600 dark:text-emerald-400" />
+                                <div className="bg-emerald-100/50 dark:bg-emerald-900/50 rounded-full w-14 h-14 flex items-center justify-center group-hover:scale-105 transition-transform shrink-0">
+                                    <MapPin className="h-7 w-7 text-emerald-600 dark:text-emerald-400" />
                                 </div>
                                 <div>
                                     <h3 className="text-xl font-semibold mb-2">
@@ -52,8 +52,8 @@ const Solution = () => {
 
                         <div className="bg-card rounded-lg p-6 shadow-sm hover:shadow-md transition-all border group">
                             <div className="flex gap-4">
-                                <div className="bg-purple-100/50 dark:bg-purple-900/50 rounded-full w-12 h-12 flex items-center justify-center group-hover:scale-105 transition-transform">
-                                    <Target className="h-6 w-6 text-purple-600 dark:text-purple-400" />
+                                <div className="bg-purple-100/50 dark:bg-purple-900/50 rounded-full w-14 h-14 flex items-center justify-center group-hover:scale-105 transition-transform shrink-0">
+                                    <Target className="h-7 w-7 text-purple-600 dark:text-purple-400" />
                                 </div>
                                 <div>
                                     <h3 className="text-xl font-semibold mb-2">
@@ -69,8 +69,8 @@ const Solution = () => {
 
                         <div className="bg-card rounded-lg p-6 shadow-sm hover:shadow-md transition-all border group">
                             <div className="flex gap-4">
-                                <div className="bg-amber-100/50 dark:bg-amber-900/50 rounded-full w-12 h-12 flex items-center justify-center group-hover:scale-105 transition-transform">
-                                    <Briefcase className="h-6 w-6 text-amber-600 dark:text-amber-400" />
+                                <div className="bg-amber-100/50 dark:bg-amber-900/50 rounded-full w-14 h-14 flex items-center justify-center group-hover:scale-105 transition-transform shrink-0">
+                                    <Briefcase className="h-7 w-7 text-amber-600 dark:text-amber-400" />
                                 </div>
                                 <div>
                                     <h3 className="text-xl font-semibold mb-2">
