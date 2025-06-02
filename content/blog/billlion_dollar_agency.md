@@ -13,7 +13,7 @@ tags:
     ]
 ---
 
-# The Right Agency Is Hard To Find
+## The Right Agency Is Hard To Find
 
 Most "marketing agency" advice is written by people who don't even run a marketing agency.
 
@@ -33,7 +33,7 @@ The secret is that: _Most marketing agencies are just middlemen who learned how 
 
 So how do you find a real marketing agency?
 
-## 1. Look at Their Clients
+### 1. Look at Their Clients
 
 The obvious, yet underutilized method is to look at what they've done before. Don't check out their website reviews, as they can easily be faked. Check out their Google & Facebook reviews. See what people say about them on Trustpilot.
 
@@ -41,7 +41,7 @@ If a marketing agency can't show you real results, real clients, or just proof t
 
 Doing research is essential before throwing your money down the drain!
 
-## 2. Ask About Their Process
+### 2. Ask About Their Process
 
 Any marketing agency on the planet has a plan. For example, if you were to hire us our plan is to, in short:
 
@@ -53,7 +53,7 @@ Any marketing agency on the planet has a plan. For example, if you were to hire 
 
 The marketing agency you choose should walk you through what they'll do, why they'll do it, and what you can expect _before_ giving you the decision to pay. If they can't, well... somethings wrong.
 
-## 3. Do They Have Skin In The Game?
+### 3. Do They Have Skin In The Game?
 
 In other words, do they guarantee anything?
 
@@ -61,7 +61,7 @@ Take us for example, we only win if you win. Our entire paycheck relies on you g
 
 Check out their website, socials, and blogs. Do they guarantee anything? Does that guarantee actually mean anything?
 
-## Red Flags (or, How to Spot a Scammer in 10 seconds)
+### Red Flags (or, How to Spot a Scammer in 10 seconds)
 
 -   They make big promises, but can't back them up (150% results in 30 days!)
 -   Their testimonials smell like ChatGPT, not real clients
