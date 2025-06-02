@@ -1,43 +1,74 @@
 ---
-title: "The Billion Dollar Agency Blueprint - Dummy Post"
-date: "2025-05-28"
+title: "How To Spot A Fake Marketing Agency"
+date: "02-06-2025"
 author: "Ali Saleh"
-summary: "Discover the foundational elements we use at AS Results to build agency websites that are engineered for massive growth and client acquisition."
-tags: ["marketing", "web design", "agency growth", "SaaS"] # Example: Added tags
+summary: "Finding the right marketing agency isn't hard, it just takes a bit of research. Our 3 step process teach you how to find one you can actually trust."
+tags:
+    [
+        "marketing",
+        "agency",
+        "scam",
+        "marketing agency",
+        "the right marketing agency",
+    ]
 ---
 
-## Unlocking Hyper-Growth for Your Agency
+# The Right Agency Is Hard To Find
 
-Ever wondered what separates a struggling agency from a **billion-dollar powerhouse**? While there are many factors, a surprisingly significant one is often overlooked: _the agency's own website_. It's not just a digital brochure; it's your most powerful, 24/7 sales and lead generation engine.
+Most "marketing agency" advice is written by people who don't even run a marketing agency.
 
-At AS Results, we've spent years dissecting the strategies of top-tier agencies and SaaS companies. We've distilled this research into a potent methodology for crafting agency websites that don't just look good—they _convert_.
+You know the type. Those people that spent more time in zoom meetings than actually running ad campaigns.
 
-### The Core Pillars of Our Approach:
+One of my professors learnt all the textbook strategies (that all these agencies use too). When he tried to use them, it was a disaster. His only resort was to run ads. Can you guess what happened next?
 
-1.  **Copy-First, Always:** Your message is paramount. Before a single pixel is designed, we nail down your value proposition, ideal client profile, and the compelling narrative that will resonate with them. Flashy design without a strong message is like a sports car with no engine.
-2.  **Conversion-Centered Design (CCD):** Every element on your site, from the hero section to the footer, must guide the visitor towards a desired action. This could be booking a call, downloading a case study, or signing up for a newsletter.
-3.  **Guaranteed Results (Yes, Really!):** We're so confident in our "billion dollar" blueprint that we offer a unique guarantee. We believe in partnerships where we only win if you win. Intrigued? You should be.
-4.  **Specialization, Not Generalization:** We don't try to be everything to everyone. Our focus is on industries we understand deeply, allowing us to apply proven strategies that get results, fast.
+> The ad salesman told me: "yeah, you should run it very often. Veeeeeerrrrrrryyyyy often"
 
-### What This Means For You:
+Of course that's what he says. The guy got paid every time the ad ran.
 
-Imagine a website that:
+What they teach in business school is great if you've got $600 Million to spend (Like Coca-Cola)
 
--   Clearly articulates your unique value.
--   Attracts and pre-qualifies your ideal clients.
--   Consistently generates high-quality leads.
--   Positions you as the undeniable authority in your niche.
+But if you're not flying private, these strategies will take _your_ money right into _their_ pocket with **nothing left for you**.
 
-That's not a pipe dream; it's the outcome of a strategically engineered online presence. This isn't just about "marketing" in the vague sense; it's about building a system.
+The secret is that: _Most marketing agencies are just middlemen who learned how to talk a good game._ They'll show you some charts, say 'brand awareness' a lot, and send you a bill that's sharper than a bee sting.
 
-### Ready to See the Method in Action?
+So how do you find a real marketing agency?
 
-This blog is just a tiny sneak peek. If you're serious about transforming your agency's website from a cost center into a revenue-generating asset, then we need to talk.
+## 1. Look at Their Clients
 
-We're offering a **free, no-obligation marketing analysis** where we'll show you exactly how these principles can be applied to _your_ agency to achieve explosive growth.
+The obvious, yet underutilized method is to look at what they've done before. Don't check out their website reviews, as they can easily be faked. Check out their Google & Facebook reviews. See what people say about them on Trustpilot.
 
-[Click here to get in touch and claim your free analysis!](/contact)
+If a marketing agency can't show you real results, real clients, or just proof that they know what they're doing, 99% of the time they're hiding something. Ask them for specifics - 'How many leads did you generate for (client)?', 'How long did it take?', etc..
 
----
+Doing research is essential before throwing your money down the drain!
 
-Don't just take my word for it. Let us show you.
+## 2. Ask About Their Process
+
+Any marketing agency on the planet has a plan. For example, if you were to hire us our plan is to, in short:
+
+1. Get an understanding of your business
+2. Analyse your previous work, including websites & social media presence
+3. Do keyword research on the most efficient places to target for your business, based on previous data
+4. Ensure your website is up-to-date & efficient, [including SEO](https://searchengineland.com/guide/what-is-seo) (it's not all ads!)
+5. Run ads based on all previous data
+
+The marketing agency you choose should walk you through what they'll do, why they'll do it, and what you can expect _before_ giving you the decision to pay. If they can't, well... somethings wrong.
+
+## 3. Do They Have Skin In The Game?
+
+In other words, do they guarantee anything?
+
+Take us for example, we only win if you win. Our entire paycheck relies on you getting results - not the other way around. Is the marketing agency you're looking at willing to risk their own business for the sake of yours?
+
+Check out their website, socials, and blogs. Do they guarantee anything? Does that guarantee actually mean anything?
+
+## Red Flags (or, How to Spot a Scammer in 10 seconds)
+
+-   They make big promises, but can't back them up (150% results in 30 days!)
+-   Their testimonials smell like ChatGPT, not real clients
+-   They can't explain what they'll actually do _for you_.
+-   Zero pricing transparency (that is, if you have to push them for pricing)
+
+If you're tired of losing money to people who couldn't market their way out of a trash can, [start here](https://asresults.com).
+
+Talk soon,
+Ali.
