@@ -19,11 +19,13 @@ Most "marketing agency" advice is written by people who don't even run a marketi
 
 You know the type. Those people that spent more time in zoom meetings than actually running ad campaigns.
 
-One of my professors learnt all the textbook strategies (that all these agencies use too). When he tried to use them, it was a disaster. His only resort was to run ads. Can you guess what happened next?
+One of my professors was a textbook guy. Knew every 'proven' strategy in the book - the ones that all these agencies are using. When he tried to use them though, it was a disaster.
 
-> The ad salesman told me: "yeah, you should run it very often. Veeeeeerrrrrrryyyyy often"
+No clients, no results, just a bunch of theory and empty promises. His last resort was to run ads, and the ad salesman - who got paid every time the ad ran - looked him dead in the eye and said,
 
-Of course that's what he says. The guy got paid every time the ad ran.
+> "Yeah, you should run it very often. Veeeeeerrrrrrryyyyy often."
+
+Of course he did. That's how the game works. The more they can make **you** spend, the more **they** get paid.
 
 What they teach in business school is great if you've got $600 Million to spend (Like Coca-Cola)
 
