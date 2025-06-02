@@ -27,9 +27,7 @@ No clients, no results, just a bunch of theory and empty promises. His last reso
 
 Of course he did. That's how the game works. The more they can make **you** spend, the more **they** get paid.
 
-What they teach in business school is great if you've got $600 Million to spend (Like Coca-Cola)
-
-But if you're not flying private, these strategies will take _your_ money right into _their_ pocket with **nothing left for you**.
+What they teach in business school is great if you've got $600 Million to spend (Like Coca-Cola), but if you're not flying private, these strategies will take your money and put it right into their pocket.
 
 The secret is that: _Most marketing agencies are just middlemen who learned how to talk a good game._ They'll show you some charts, say 'brand awareness' a lot, and send you a bill that's sharper than a bee sting.
 
