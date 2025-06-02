@@ -23,7 +23,7 @@ One of my professors was a textbook guy. Knew every 'proven' strategy in the boo
 
 No clients, no results, just a bunch of theory and empty promises. His last resort was to run ads, and the ad salesman - who got paid every time the ad ran - looked him dead in the eye and said,
 
-> "Yeah, you should run it very often. Veeeeeerrrrrrryyyyy often."
+> Yeah, you should run it very often. Veeeeeerrrrrrryyyyy often.
 
 Of course he did. That's how the game works. The more they can make **you** spend, the more **they** get paid.
 
