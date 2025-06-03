@@ -13,7 +13,7 @@ tags:
     ]
 ---
 
-## The Right Agency Is Hard To Find
+## Most marketing agencies are kinda scummy...
 
 Most "marketing agency" advice is written by people who don't even run a marketing agency.
 
