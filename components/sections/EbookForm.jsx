@@ -5,7 +5,7 @@ import { useRouter } from "next/navigation";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 
-const FORMSPARK_FORM_ID = "7WNMrPbYB"; // Replace with your actual Formspark Form ID
+const FORMSPARK_FORM_ID = "JHwvhpgFK"; // Replace with your actual Formspark Form ID
 
 const EbookForm = () => {
     const [email, setEmail] = useState("");
