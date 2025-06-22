@@ -17,7 +17,7 @@ const ContactCTA = () => {
                         asChild
                         className="group"
                     >
-                        <Link href="/contact">
+                        <Link href="/free-marketing-analysis">
                             Get in Touch{" "}
                             <ArrowRight className="ml-2 h-5 w-5 transition-transform group-hover:translate-x-1" />
                         </Link>

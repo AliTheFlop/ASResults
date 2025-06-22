@@ -30,7 +30,9 @@ const Hero = () => {
                                 className="px-8 py-6 text-lg"
                                 asChild
                             >
-                                <Link href="/contact">Yes, I Want That!</Link>
+                                <Link href="/free-marketing-analysis">
+                                    Yes, I Want That!
+                                </Link>
                             </Button>
                         </div>
                     </div>

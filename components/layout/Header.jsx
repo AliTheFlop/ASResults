@@ -55,7 +55,9 @@ const Header = () => {
                         </Link>
 
                         <Button asChild>
-                            <Link href="/contact">Free Marketing Analysis</Link>
+                            <Link href="/free-marketing-analysis">
+                                Free Marketing Analysis
+                            </Link>
                         </Button>
                     </nav>
 
@@ -97,7 +99,7 @@ const Header = () => {
                         <div className="px-3 py-2">
                             <Button asChild className="w-full">
                                 <Link
-                                    href="/contact"
+                                    href="/free-marketing-analysis"
                                     onClick={() => setIsMenuOpen(false)}
                                 >
                                     Free Marketing Analysis
