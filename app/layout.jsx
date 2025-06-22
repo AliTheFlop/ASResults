@@ -1,3 +1,5 @@
+// [14] layout.jsx - Corrected Code
+
 import "./globals.css";
 import { Inter } from "next/font/google";
 import Header from "@/components/layout/Header";
@@ -5,6 +7,7 @@ import Footer from "@/components/layout/Footer";
 import Script from "next/script";
 import { copperplate } from "@/lib/fonts.js";
 import FacebookPixelEvents from "@/components/FacebookPixelEvents";
+import { Suspense } from "react"; // 1. Import Suspense
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -52,7 +55,10 @@ export default function RootLayout({ children }) {
                     <main className="flex-1">{children}</main>
                     <Footer />
                 </div>
-                <FacebookPixelEvents />
+                {/* 2. Wrap the component in Suspense */}
+                <Suspense fallback={null}>
+                    <FacebookPixelEvents />
+                </Suspense>
             </body>
         </html>
     );
