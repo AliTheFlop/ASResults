@@ -4,6 +4,7 @@ import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
 import Script from "next/script";
 import { copperplate } from "@/lib/fonts.js";
+import FacebookPixelEvents from "@/components/FacebookPixelEvents";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -51,6 +52,7 @@ export default function RootLayout({ children }) {
                     <main className="flex-1">{children}</main>
                     <Footer />
                 </div>
+                <FacebookPixelEvents />
             </body>
         </html>
     );
