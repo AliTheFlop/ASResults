@@ -72,7 +72,10 @@ export default function RootLayout({ children }) {
                     ></iframe>
                 </noscript>
                 {/* End GTM NoScript */}
-                <GTMPageView />
+                <Suspense fallback={null}>
+                    <GTMPageView />
+                </Suspense>
+
                 <div className="flex min-h-screen flex-col">
                     <Header />
                     <main className="flex-1">{children}</main>
