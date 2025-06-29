@@ -238,8 +238,7 @@ const ContactForm = () => {
                         htmlFor="adSpend"
                         className="block text-sm font-medium mb-1"
                     >
-                        How much are you spending on advertising / month (in
-                        USD)?
+                        How much are you spending on advertising / month?
                     </label>
                     <Input
                         id="adSpend"
