@@ -7,6 +7,7 @@ import Footer from "@/components/layout/Footer";
 import Script from "next/script";
 import { copperplate } from "@/lib/fonts.js";
 import FacebookPixelEvents from "@/components/FacebookPixelEvents";
+import GTMPageView from "@/components/GTMPageView";
 import { Suspense } from "react"; // 1. Import Suspense
 
 const inter = Inter({ subsets: ["latin"] });
@@ -71,6 +72,7 @@ export default function RootLayout({ children }) {
                     ></iframe>
                 </noscript>
                 {/* End GTM NoScript */}
+                <GTMPageView />
                 <div className="flex min-h-screen flex-col">
                     <Header />
                     <main className="flex-1">{children}</main>
