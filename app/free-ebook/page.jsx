@@ -6,7 +6,8 @@ export default function EbookLanding() {
             <div className="mx-auto max-w-4xl">
                 <div className="text-center mb-12">
                     <h1 className="text-4xl md:text-5xl font-bold tracking-tight mb-6 text-[#004aad]">
-                        Tired of Ads That Don&apos;t Get the Phone Ringing?
+                        Local Businesses Are Getting More Clients Using This
+                        Checklist
                     </h1>
 
                     <p className="text-xl text-muted-foreground max-w-2xl mx-auto mb-6">
