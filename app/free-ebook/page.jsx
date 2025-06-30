@@ -11,16 +11,17 @@ export default function EbookLanding() {
                     </h1>
 
                     <p className="text-xl text-muted-foreground max-w-2xl mx-auto mb-6">
-                        I&apos;m giving you a dead-simple checklist that local
-                        tradies are using to get real clients calling in,
-                        *fast*.
+                        You&apos;ll also get our client-first newsletter
+                        that&apos;s 100% focused on helping you land more
+                        clients, and provides tips to push ads to work in your
+                        favour.
                     </p>
                     <ul className="text-left text-lg text-muted-foreground max-w-2xl mx-auto space-y-3 text-[#004aad]">
                         <li>
                             ✅ Show up when people are already searching for
                             your service
                         </li>
-                        <li>✅ Skip the agency fees and wasted ad spend</li>
+                        <li>✅ Avoid agency fees and high ad-spend</li>
                         <li>
                             ✅ Learn the 3-part formula that&apos;s working
                             right now
@@ -43,10 +44,6 @@ export default function EbookLanding() {
                     <p className="text-sm text-muted-foreground">
                         It&apos;s free, and you&apos;ll learn more in 10 minutes
                         than most marketers charge a thousand bucks for.
-                        You&apos;ll also get our client-first newsletter
-                        that&apos;s 100% focused on helping you land more
-                        clients, provides tips to push ads to work in your
-                        favour.
                     </p>
                 </div>
             </div>
