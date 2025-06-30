@@ -42,6 +42,10 @@ export default function EbookLanding() {
                     <p className="text-sm text-muted-foreground">
                         It&apos;s free, and you&apos;ll learn more in 10 minutes
                         than most marketers charge a thousand bucks for.
+                        You&apos;ll also get our client-first newsletter
+                        that&apos;s 100% focused on helping you land more
+                        clients, provides tips to push ads to work in your
+                        favour.
                     </p>
                 </div>
             </div>
