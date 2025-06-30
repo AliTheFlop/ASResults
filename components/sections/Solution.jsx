@@ -7,7 +7,8 @@ const Solution = () => {
                 <div className="max-w-5xl mx-auto">
                     <div className="text-center mb-12">
                         <h2 className="text-3xl md:text-4xl font-bold tracking-tight mb-4">
-                            &quot;Ok.. but what makes you different?&quot;
+                            &quot;Ok.. but what makes you{" "}
+                            <span className="text-brand">different?</span>&quot;
                         </h2>
                     </div>
 

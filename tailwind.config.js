@@ -30,6 +30,11 @@ module.exports = {
             },
             colors: {
                 border: "hsl(var(--border))",
+                brand: {
+                    DEFAULT: "#004aad",
+                    dark: "#003a88",
+                    light: "#f0f6fd",
+                },
                 input: "hsl(var(--input))",
                 ring: "hsl(var(--ring))",
                 background: "hsl(var(--background))",

@@ -12,7 +12,7 @@ const Hero = () => {
                     <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight mb-6 leading-tight">
                         More growth. More clients.
                         <br />
-                        <span className="text-primary relative">
+                        <span className="text-brand relative">
                             Guaranteed
                             <div className="absolute inset-x-0 bottom-0 h-1 bg-stone-500/50 transform skew-x-12"></div>
                         </span>
@@ -29,6 +29,7 @@ const Hero = () => {
                                 size="lg"
                                 className="px-8 py-6 text-lg"
                                 asChild
+                                variant="brand"
                             >
                                 <Link href="/free-marketing-analysis">
                                     Yes, I Want That!

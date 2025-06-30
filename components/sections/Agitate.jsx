@@ -7,14 +7,16 @@ const Agitate = () => {
                 <div className="max-w-5xl mx-auto">
                     <div className="text-center mb-12">
                         <h2 className="text-3xl md:text-4xl font-bold tracking-tight mb-4">
-                            So how do you get the most out of your marketing?
+                            So how do you{" "}
+                            <span className="text-brand">get the most</span> out
+                            of your marketing?
                         </h2>
                     </div>
 
                     <div className="grid md:grid-cols-3 gap-8">
-                        <div className="bg-background rounded-lg p-6 shadow-sm transition-all hover:shadow-md">
+                        <div className="bg-background rounded-lg p-6 shadow-sm transition-all hover:shadow-md border hover:border-brand">
                             <div className="flex flex-col items-center gap-4 mb-4">
-                                <Clock className="h-8 w-8 text-primary" />
+                                <Clock className="h-8 w-8 text-brand" />
                                 <h3 className="text-xl font-semibold text-center">
                                     Do Everything Yourself?
                                 </h3>
@@ -27,9 +29,9 @@ const Agitate = () => {
                             </p>
                         </div>
 
-                        <div className="bg-background rounded-lg p-6 shadow-sm transition-all hover:shadow-md">
+                        <div className="bg-background rounded-lg p-6 shadow-sm transition-all hover:shadow-md border hover:border-brand">
                             <div className="flex flex-col items-center gap-4 mb-4">
-                                <UserX className="h-8 w-8 text-primary" />
+                                <UserX className="h-8 w-8 text-brand" />
                                 <h3 className="text-xl font-semibold text-center">
                                     Hire New Staff?
                                 </h3>
@@ -45,9 +47,9 @@ const Agitate = () => {
                             </p>
                         </div>
 
-                        <div className="bg-background rounded-lg p-6 shadow-sm transition-all hover:shadow-md">
+                        <div className="bg-background rounded-lg p-6 shadow-sm transition-all hover:shadow-md border hover:border-brand">
                             <div className="flex flex-col items-center gap-4 mb-4">
-                                <AlertCircle className="h-8 w-8 text-primary" />
+                                <AlertCircle className="h-8 w-8 text-brand" />
                                 <h3 className="text-xl font-semibold text-center">
                                     Hire An Agency?
                                 </h3>

@@ -79,6 +79,7 @@ const EbookForm = () => {
                 <Button
                     type="submit"
                     className="w-full"
+                    variant="brand"
                     disabled={isSubmitting}
                 >
                     {isSubmitting ? "Submitting..." : "Send Me The Guide"}

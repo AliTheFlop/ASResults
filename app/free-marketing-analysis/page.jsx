@@ -5,7 +5,7 @@ export default function Contact() {
         <div className="container mx-auto py-12 px-4 md:px-6 lg:py-24">
             <div className="mx-auto">
                 <div className="text-center mb-12">
-                    <h1 className="text-4xl md:text-5xl font-bold tracking-tight mb-4">
+                    <h1 className="text-4xl md:text-5xl font-bold tracking-tight mb-4 text-brand">
                         Would you like to know what we can do for you?
                     </h1>
                     <p className="text-xl text-muted-foreground max-w-2xl mx-auto">

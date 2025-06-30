@@ -253,6 +253,7 @@ const ContactForm = () => {
 
                 <Button
                     type="submit"
+                    variant="brand"
                     className="w-full"
                     disabled={isSubmitting}
                 >
