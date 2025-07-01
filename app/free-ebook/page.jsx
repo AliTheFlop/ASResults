@@ -38,8 +38,8 @@ export default function EbookLanding() {
 
                 <div className="text-center max-w-2xl mx-auto border-t pt-12">
                     <p className="text-xl text-muted-foreground mb-4">
-                        “Most business owners are invisible online. This guide
-                        shows you how to fix that with zero fluff.”
+                        “Many business owners are hard to find online. This
+                        guide helps fix that.”
                     </p>
                     <p className="text-sm text-muted-foreground">
                         It&apos;s free, and you&apos;ll learn more in 10 minutes
