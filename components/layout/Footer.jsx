@@ -8,7 +8,7 @@ const Footer = () => {
             <div className="container mx-auto px-4 md:px-6 py-8">
                 <div className="flex flex-col md:flex-row justify-between items-center">
                     <div>
-                        <span className="text-lg font-semibold font-logo text-brand">
+                        <span className="text-lg font-semibold font-logo">
                             AS Results
                         </span>
                     </div>
