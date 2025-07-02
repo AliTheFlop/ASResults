@@ -55,6 +55,9 @@ const ContactForm = () => {
                 );
             }
 
+            window.dataLayer = window.dataLayer || [];
+            window.dataLayer.push({ event: "primary_form_success" });
+
             setIsSubmitted(true);
             setFormState({
                 // Reset form fields
