@@ -1,5 +1,6 @@
 import ContactForm from "@/components/sections/ContactForm";
 import { CheckCircle } from "lucide-react";
+import Link from "next/link";
 
 export default function ThankYou() {
     return (
@@ -12,14 +13,23 @@ export default function ThankYou() {
                             Thanks For Signing Up!
                         </h1>
                     </div>
-                    <p className="text-center text-xl text-muted-foreground max-w-2xl mx-auto mb-32">
-                        Your free guide should arrive within 5 minutes.
+                    <p className="text-center text-xl text-muted-foreground max-w-2xl mx-auto">
+                        <a
+                            className="underline"
+                            target="_blank"
+                            href="https://drive.google.com/file/d/1Xk-NsMaGKGCcBnfvj6A2YIcR7GR-Q5i8/view?usp=sharing"
+                        >
+                            Access the guide here.
+                        </a>
                         <br />
-                        Please be sure to check your spam folder!
+                    </p>
+                    <p className="text-center text-sm text-muted-foreground max-w-2xl mx-auto mb-32 mt-4">
+                        You&apos;ll also recieve a copy in your email. Please be
+                        sure to check your spam folder!
                     </p>
                     <div className="text-center mb-12">
                         <h3 className="text-xl md:text-2xl font-bold tracking-tight mb-4">
-                            Would you like us to help you?
+                            We can take your ads off your back!
                         </h3>
                         <p className=" text-muted-foreground max-w-2xl mx-auto">
                             Fill out the form below and we will contact you

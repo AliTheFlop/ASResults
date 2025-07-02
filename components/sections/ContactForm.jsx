@@ -101,6 +101,7 @@ const ContactForm = () => {
 
     return (
         <form
+            id="primary-lead-form"
             onSubmit={handleSubmit}
             className="bg-card rounded-lg border p-6 shadow-sm"
         >
