@@ -7,7 +7,7 @@ export default function EbookLanding() {
                 <div className="text-center mb-12">
                     <h1 className="text-4xl md:text-5xl font-bold tracking-tight mb-6 text-[#004aad]">
                         Local Businesses Are Getting More Clients Using This
-                        Checklist
+                        Playbook
                     </h1>
 
                     <p className="text-xl text-muted-foreground max-w-2xl mx-auto mb-6">
@@ -23,8 +23,7 @@ export default function EbookLanding() {
                         </li>
                         <li>✅ Avoid agency fees and high ad-spend</li>
                         <li>
-                            ✅ Learn the 3-part formula that&apos;s working
-                            right now
+                            ✅ Learn the formula that&apos;s working right now
                         </li>
                         <li>
                             ✅ Stop relying on referrals and word-of-mouth only
@@ -38,8 +37,8 @@ export default function EbookLanding() {
 
                 <div className="text-center max-w-2xl mx-auto border-t pt-12">
                     <p className="text-xl text-muted-foreground mb-4">
-                        “Many business owners are hard to find online. This
-                        guide helps fix that.”
+                        “Many business owners are hard to find online. Follow
+                        this, and you fix that.”
                     </p>
                     <p className="text-sm text-muted-foreground">
                         It&apos;s free, and you&apos;ll learn more in 10 minutes
