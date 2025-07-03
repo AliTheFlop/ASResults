@@ -17,9 +17,9 @@ export default function ThankYou() {
                         <a
                             className="underline"
                             target="_blank"
-                            href="https://drive.google.com/file/d/1Xk-NsMaGKGCcBnfvj6A2YIcR7GR-Q5i8/view?usp=sharing"
+                            href="https://drive.google.com/file/d/1fA6kO77jIKWfaKyoFGSWHYgtt8NlREqm/view?usp=sharing"
                         >
-                            Access the guide here.
+                            Access the playbook here.
                         </a>
                         <br />
                     </p>
