@@ -6,28 +6,28 @@ export default function EbookLanding() {
             <div className="mx-auto max-w-4xl">
                 <div className="text-center mb-12">
                     <h1 className="text-4xl md:text-5xl font-bold tracking-tight mb-6 text-[#004aad]">
-                        Local Businesses Are Getting More Clients Using This
-                        Playbook
+                        Here&apos;s How To Improve Your Google Ads Today.
                     </h1>
 
                     <p className="text-xl text-muted-foreground max-w-2xl mx-auto mb-6">
-                        You&apos;ll also get our client-first newsletter
-                        that&apos;s 100% focused on helping you land more
-                        clients, and provides tips to push ads to work in your
-                        favour.
+                        This free playbook will show you what&apos;s currently
+                        working for local businesses right now - and how to fix
+                        it using a few simple steps. You&apos;ll learn:
                     </p>
                     <ul className="text-left text-lg text-muted-foreground max-w-2xl mx-auto space-y-3 text-[#004aad]">
                         <li>
-                            ✅ Show up when people are already searching for
-                            your service
-                        </li>
-                        <li>✅ Avoid agency fees and high ad-spend</li>
-                        <li>
-                            ✅ Learn the formula that&apos;s working right now
+                            ✅ Why Google&apos;s default campaign type secretly
+                            drains your budget
                         </li>
                         <li>
-                            ✅ Stop relying on referrals and word-of-mouth only
+                            ✅ The #1 reason visitors don&apos;t convert (and
+                            how to fix it)
                         </li>
+                        <li>
+                            ✅ How to out-rank big brands by using your local
+                            advantage
+                        </li>
+                        <li>✅ All without even hiring an agency</li>
                     </ul>
                 </div>
 
@@ -37,8 +37,8 @@ export default function EbookLanding() {
 
                 <div className="text-center max-w-2xl mx-auto border-t pt-12">
                     <p className="text-xl text-muted-foreground mb-4">
-                        “Many business owners are hard to find online. Follow
-                        this, and you fix that.”
+                        “Many business owners weren&apos;t trained to be
+                        marketers. Follow this playbook, and you fix that.”
                     </p>
                     <p className="text-sm text-muted-foreground">
                         It&apos;s free, and you&apos;ll learn more in 10 minutes
