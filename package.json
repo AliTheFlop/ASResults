@@ -4,7 +4,7 @@
     "private": true,
     "scripts": {
         "dev": "next dev",
-        "build": "next build && next-sitemap",
+        "build": "netlify build",
         "postbuild": "next-sitemap",
         "start": "next start",
         "lint": "next lint"
@@ -73,6 +73,7 @@
         "zod": "^3.23.8"
     },
     "devDependencies": {
+        "@netlify/next": "^1.4.9",
         "@tailwindcss/typography": "^0.5.16",
         "@types/node": "22.15.21"
     }
