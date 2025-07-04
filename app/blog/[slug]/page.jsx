@@ -30,23 +30,29 @@ export default async function PostPage({ params }) {
 
     return (
         <div className="container mx-auto py-12 px-4 md:px-6 lg:py-24">
-            <article className="prose lg:prose-xl dark:prose-invert max-w-none">
-                <h1>{postData.title}</h1>
-                {postData.date && (
-                    <p className="text-muted-foreground">
-                        <time dateTime={postData.date}>{postData.date}</time>
-                    </p>
-                )}
-                {postData.author && (
-                    <p className="text-muted-foreground">
-                        By {postData.author}
-                    </p>
-                )}
-                <hr className="my-6" />
-                <div
-                    dangerouslySetInnerHTML={{ __html: postData.contentHtml }}
-                />
-            </article>
+            <div className="border border-muted rounded-lg p-6 md:p-10 bg-white dark:bg-background shadow-sm">
+                <article className="prose prose-base md:prose-lg dark:prose-invert max-w-none prose-headings:font-logo prose-headings:text-brand prose-p:text-foreground prose-a:text-brand hover:prose-a:underline prose-strong:text-brand prose-li:marker:text-brand">
+                    <h1>{postData.title}</h1>
+                    {postData.date && (
+                        <p className="text-muted-foreground">
+                            <time dateTime={postData.date}>
+                                {postData.date}
+                            </time>
+                        </p>
+                    )}
+                    {postData.author && (
+                        <p className="text-muted-foreground">
+                            By {postData.author}
+                        </p>
+                    )}
+                    <hr className="my-6" />
+                    <div
+                        dangerouslySetInnerHTML={{
+                            __html: postData.contentHtml,
+                        }}
+                    />
+                </article>
+            </div>
         </div>
     );
 }
