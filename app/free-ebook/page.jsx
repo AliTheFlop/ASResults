@@ -11,8 +11,8 @@ export default function EbookLanding() {
 
                     <p className="text-xl text-muted-foreground max-w-2xl mx-auto mb-6">
                         This free playbook will show you what&apos;s currently
-                        working for local businesses right now - and how to fix
-                        it using a few simple steps. You&apos;ll learn:
+                        working for local businesses right now - and how to set
+                        your ads up for true success. You&apos;ll learn:
                     </p>
                     <ul className="text-left text-lg text-muted-foreground max-w-2xl mx-auto space-y-3 text-[#004aad]">
                         <li>
