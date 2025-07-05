@@ -57,7 +57,7 @@ Yes, it knows the buzzwords and copywriting tricks: “Nagging Pain?” “Limit
 
 But 90% of the time it’s overdone and lacks the “human quirks” which are essential for giving your content that relatable feeling.
 
-> “Do you get constant back pain?” is something you can actually say “yes” to.
+“Do you get constant back pain?” is something you can actually say “yes” to.
 
 The truth is that people don’t buy from robots.  
 They buy from **humans**.
@@ -76,5 +76,5 @@ Not a prompt.
 
 ---
 
-**P.S.** I take the stress off local businesses by creating all advertisements and marketing under a real, human brain.  
+**P.S.** I take the stress off local businesses by creating all their advertisements with a real, human brain.  
 If that’s something you’d be interested in, [click here to get a free marketing analysis](/free-marketing-analysis).
