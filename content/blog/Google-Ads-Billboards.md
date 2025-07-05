@@ -1,6 +1,6 @@
 ---
 title: "Google Ads > Billboards"
-date: "04-07-2025"
+date: "4th July 2025"
 author: "Ali S"
 summary: "Billboards are dead. Google Ads let you show up *exactly* when people are ready to buy. Here's why you should stop wasting money on traditional ads."
 tags: ["google ads", "paid ads", "digital marketing"]
@@ -22,7 +22,7 @@ But what if they _didn’t have to be?_
 
 Well guess what? They don’t.
 
-**Run Google Ads brother (or sister).**
+**Run Google Ads, brother. (or sister...)**
 
 It might not be flashy, but without them you’re almost invisible.
 

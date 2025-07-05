@@ -1,6 +1,6 @@
 ---
 title: "AI Sucks"
-date: "05-07-2025"
+date: "5th July 2025"
 author: "Ali S"
 summary: "AI can never beat human thoughts and emotions. While the rest of the world sleeps, I'll show you how you can take advantage."
 tags: ["meta ads", "ai", "digital marketing"]
