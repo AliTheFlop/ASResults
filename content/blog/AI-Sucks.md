@@ -6,8 +6,6 @@ summary: "AI can never beat human thoughts and emotions. While the rest of the w
 tags: ["meta ads", "ai", "digital marketing"]
 ---
 
-# AI Sucks
-
 Hey,
 
 The other day I was running Meta Ads for myself and one thing caught my eye:
