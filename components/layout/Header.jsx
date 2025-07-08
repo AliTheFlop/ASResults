@@ -53,6 +53,12 @@ const Header = () => {
                         >
                             Blog
                         </Link>
+                        <Link
+                            href="/newsletter"
+                            className="text-foreground/80 hover:text-foreground transition-colors"
+                        >
+                            Newsletter
+                        </Link>
 
                         <Button asChild variant="secondary">
                             <Link href="/free-marketing-analysis">
@@ -95,6 +101,12 @@ const Header = () => {
                             onClick={() => setIsMenuOpen(false)}
                         >
                             Blog
+                        </Link>
+                        <Link
+                            href="/newsletter"
+                            className="text-foreground/80 hover:text-foreground transition-colors"
+                        >
+                            Newsletter
                         </Link>
                         <div className="px-3 py-2">
                             <Button

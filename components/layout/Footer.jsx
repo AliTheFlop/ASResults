@@ -17,15 +17,15 @@ const Footer = () => {
                         <ul className="flex space-x-4">
                             <li>
                                 <a
-                                    href="#"
+                                    href="/terms-and-conditions"
                                     className="text-muted-foreground hover:text-foreground transition-colors"
                                 >
-                                    Cookies
+                                    Terms and Conditions
                                 </a>
                             </li>
                             <li>
                                 <a
-                                    href="#"
+                                    href="/privacy-policy"
                                     className="text-muted-foreground hover:text-foreground transition-colors"
                                 >
                                     Privacy Policy
