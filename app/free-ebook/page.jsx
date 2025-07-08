@@ -6,50 +6,38 @@ export default function EbookLanding() {
             <div className="mx-auto max-w-4xl">
                 {/* Headline */}
                 <div className="text-center mb-12">
-                    <h1 className="text-4xl md:text-5xl font-extrabold tracking-tight leading-tight mb-6 text-[#004aad]">
-                        Google Ads Are a Goldmine for Local Businesses...
-                        <br className="hidden md:block" />
-                        <br className="hidden md:block" />
-                        <span className="text-3xl md:text-4xl">
-                            If You Don&apos;t Blow Your Budget.
-                        </span>
+                    <h1 className="text-3xl md:text-5xl font-extrabold tracking-tight leading-tight mb-6 text-[#004aad]">
+                        Google Ads Work. <br className="hidden md:block" />
+                        If You Don&apos;t Blow Your Money Like a Clown.
                     </h1>
 
                     <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-4">
-                        I broke down the steps that make it work without hiring
-                        an agency, wasting money, or fighting on price.
+                        Learn how to get your phone ringing without hiring a
+                        sketchy agency, wasting your cash, or guessing what
+                        works.
                     </p>
 
-                    <p className="text-base text-muted-foreground max-w-xl mx-auto italic mb-8">
-                        TLDR: It&apos;s all about showing up when someone&apos;s
-                        already searching for what you do.
+                    <p className="text-base text-muted-foreground max-w-xl mx-auto italic mb-24">
+                        Spoiler: it&apos;s just about showing up when people
+                        *already* want to buy.
                     </p>
                 </div>
 
                 {/* What&apos;s Inside */}
                 <div className="text-center mb-12">
                     <h3 className="text-2xl md:text-3xl font-bold tracking-tight text-[#004aad] mb-4">
-                        Inside This Free Playbook
+                        What You&apos;ll Get in This 10-Minute Read:
                     </h3>
-                    <p className="text-base text-muted-foreground max-w-xl mx-auto mb-6">
-                        You&apos;ll learn all this in under 10 minutes:
-                    </p>
                     <ul className="text-left text-lg max-w-2xl mx-auto space-y-3 text-[#004aad]">
-                        <li>✅ Why most ads fail before they even launch</li>
+                        <li>✅ Why most ads flop before they even start</li>
                         <li>
-                            ✅ The biggest mistake small biz owners make with
-                            Google (and how to fix it)
+                            ✅ The brutal mistake local businesses make with
+                            Google (and how to avoid it)
                         </li>
+                        <li>✅ The one ad type that actually makes money</li>
                         <li>
-                            ✅ The <span className="italic">only</span> ad type
-                            you need to start with
-                        </li>
-                        <li>
-                            ✅ How to out-rank big brands using local targeting
-                        </li>
-                        <li>
-                            ✅ Why your website must work{" "}
-                            <span className="italic">for you</span>
+                            ✅ How to crush big brands using local targeting (no
+                            fancy agency required)
                         </li>
                     </ul>
                 </div>
@@ -57,15 +45,12 @@ export default function EbookLanding() {
                 {/* Emotional Reassurance */}
                 <div className="text-center mb-12">
                     <p className="text-xl text-muted-foreground max-w-xl mx-auto italic mb-4">
-                        If you&apos;re running a business, this was built for
-                        you.
-                        <br />
-                        You shouldn&apos;t have to master ad tech just to show
-                        up for people already searching.
+                        If people are already searching for what you sell, why
+                        the heck aren&apos;t you showing up?
                     </p>
                     <p className="text-lg text-muted-foreground max-w-xl mx-auto">
-                        Just drop your email below, and I&apos;ll send the
-                        playbook instantly.
+                        Drop your email, I&apos;ll send the playbook. Free.
+                        Straight-shooter stuff.
                     </p>
                 </div>
 
@@ -76,13 +61,9 @@ export default function EbookLanding() {
 
                 {/* Quote */}
                 <div className="text-center max-w-2xl mx-auto border-t pt-10">
-                    <p className="text-xl text-muted-foreground mb-4 font-medium">
-                        “Most business owners weren&apos;t trained to be
-                        marketers. Follow this playbook, and you fix that.”
-                    </p>
                     <p className="text-sm text-muted-foreground">
-                        It&apos;s free, and you&apos;ll learn more in 10 minutes
-                        than most marketers charge a thousand bucks for.
+                        You&apos;ll learn more in 10 minutes than most
+                        &apos;experts&apos; give away in a $997 course.
                     </p>
                 </div>
             </div>
