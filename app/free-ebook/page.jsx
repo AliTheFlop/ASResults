@@ -49,8 +49,10 @@ export default function EbookLanding() {
                         the heck aren&apos;t you showing up?
                     </p>
                     <p className="text-lg text-muted-foreground max-w-xl mx-auto">
-                        Drop your email, I&apos;ll send the playbook. Free.
-                        Straight-shooter stuff.
+                        Drop your email and you&apos;ll get the playbook
+                        instantly.
+                        <br />
+                        It&apos;s Free.
                     </p>
                 </div>
 
