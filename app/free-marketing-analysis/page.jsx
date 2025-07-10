@@ -6,12 +6,12 @@ export default function Contact() {
             <div className="mx-auto">
                 <div className="text-center mb-12">
                     <h1 className="text-4xl md:text-5xl font-bold tracking-tight mb-4 text-brand">
-                        Would you like to know what we can do for you?
+                        Get A Free Marketing Analysis
                     </h1>
                     <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
                         Fill out the form below and we will contact you within
-                        24 hours for a free analysis. No costs, no obligations,
-                        no annoying sales pitch. Guaranteed.
+                        24 hours. No costs, no obligations, no annoying sales
+                        pitch. Guaranteed.
                     </p>
                 </div>
 
