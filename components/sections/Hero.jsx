@@ -25,7 +25,7 @@ const Hero = () => {
                             duration: 0.6,
                             ease: "easeOut",
                         }}
-                        className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight mb-6 leading-tight"
+                        className="font-heading text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight mb-6 leading-tight"
                     >
                         More growth. More clients.
                         <br />
@@ -54,7 +54,7 @@ const Hero = () => {
                         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
                             <Button
                                 size="lg"
-                                className="px-8 py-6 text-lg"
+                                className="font-body px-8 py-6 text-lg bg-[#1F51FF] text-white hover:bg-[#003a88]"
                                 asChild
                                 variant="brand"
                             >

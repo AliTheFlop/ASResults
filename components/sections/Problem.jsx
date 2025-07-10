@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 
 const Problem = () => {
     return (
-        <section className="py-8 md:py-16 bg-background">
+        <section className="py-8 md:py-16 bg-[#FAFAFA]">
             <div className="container mx-auto px-4 md:px-6">
                 <motion.div
                     initial={{ opacity: 0, y: 30 }}
@@ -15,10 +15,10 @@ const Problem = () => {
                     className="max-w-5xl mx-auto"
                 >
                     <div className="text-center">
-                        <h2 className="text-3xl md:text-4xl font-bold tracking-tight mb-4">
+                        <h2 className="font-heading text-3xl md:text-4xl font-bold tracking-tight mb-4">
                             Marketing is important...
                         </h2>
-                        <p className="text-xl text-muted-foreground">
+                        <p className="font-body text-xl text-muted-foreground">
                             However, there&apos;s already 101 things on your
                             to-do list.
                             <br />

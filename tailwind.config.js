@@ -17,6 +17,8 @@ module.exports = {
         extend: {
             fontFamily: {
                 logo: ["Fredoka", "sans-serif"],
+                heading: ["Poppins", "sans-serif"],
+                body: ["Inter", "sans-serif"],
             },
             backgroundImage: {
                 "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
@@ -31,14 +33,14 @@ module.exports = {
             colors: {
                 border: "hsl(var(--border))",
                 brand: {
-                    DEFAULT: "#004aad",
-                    dark: "#003a88",
-                    light: "#f0f6fd",
+                    DEFAULT: "#1F51FF", // Electric Blue
+                    dark: "#003a88", // Dark Blue
+                    light: "#f0f6fd", // Soft Blue for backgrounds
                 },
                 input: "hsl(var(--input))",
                 ring: "hsl(var(--ring))",
-                background: "hsl(var(--background))",
-                foreground: "hsl(var(--foreground))",
+                background: "#FAFAFA", // Soft White background
+                foreground: "#333333", // Charcoal for text
                 primary: {
                     DEFAULT: "hsl(var(--primary))",
                     foreground: "hsl(var(--primary-foreground))",
@@ -56,8 +58,7 @@ module.exports = {
                     foreground: "hsl(var(--muted-foreground))",
                 },
                 accent: {
-                    DEFAULT: "hsl(var(--accent))",
-                    foreground: "hsl(var(--accent-foreground))",
+                    DEFAULT: "#E05A33",
                 },
                 popover: {
                     DEFAULT: "hsl(var(--popover))",
@@ -88,6 +89,15 @@ module.exports = {
             animation: {
                 "accordion-down": "accordion-down 0.2s ease-out",
                 "accordion-up": "accordion-up 0.2s ease-out",
+            },
+            typography: {
+                DEFAULT: {
+                    css: {
+                        h1: {
+                            fontWeight: 600,
+                        },
+                    },
+                },
             },
         },
     },

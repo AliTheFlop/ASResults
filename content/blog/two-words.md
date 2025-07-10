@@ -3,10 +3,10 @@ title: "Two Words"
 date: "10th July 2025"
 author: "Ali S"
 summary: "Here's a simple trick to hooking more clients onto your offer. Warning: This could get you more business than you expect."
-tags: ["meta ads", "ai", "digital marketing"]
+tags: ["hooks", "tips"]
 ---
 
-# Nothing Beats Two Words
+## Nothing beats two words
 
 The other day I was running ads and tried a few hooks:
 
@@ -19,7 +19,9 @@ While these are vastly different ways of saying the same thing:
 1. They’re all screaming at you
 2. **FREE GUIDE** is simple — the other two take some time to read
 
-Of course it did. Humans are lazy. Lazy wins every time.
+Humans are lazy. Lazy wins every time. Every marketer knows this.
+
+So of course, **FREE GUIDE** got more converted wayyyy better.
 
 All because it hooked the reader in just **two words**.
 
