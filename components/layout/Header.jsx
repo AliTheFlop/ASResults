@@ -104,7 +104,7 @@ const Header = () => {
                         </Link>
                         <Link
                             href="/newsletter"
-                            className="text-foreground/80 hover:text-foreground transition-colors"
+                            className="block px-3 py-2 rounded-md text-base font-medium hover:bg-muted"
                         >
                             Newsletter
                         </Link>

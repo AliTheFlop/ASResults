@@ -17,7 +17,7 @@ const Agitate = () => {
                         <div className="bg-background rounded-lg p-6 shadow-sm transition-all hover:shadow-md border hover:border-brand">
                             <div className="flex flex-col items-center gap-4 mb-4">
                                 <Clock className="h-8 w-8 text-brand" />
-                                <h3 className="text-accent font-heading text-xl font-semibold text-center">
+                                <h3 className="text-brand-dark font-heading text-xl font-semibold text-center">
                                     Do Everything Yourself?
                                 </h3>
                             </div>
@@ -32,7 +32,7 @@ const Agitate = () => {
                         <div className="bg-background rounded-lg p-6 shadow-sm transition-all hover:shadow-md border hover:border-brand">
                             <div className="flex flex-col items-center gap-4 mb-4">
                                 <UserX className="h-8 w-8 text-brand" />
-                                <h3 className="text-accent font-heading text-xl font-semibold text-center">
+                                <h3 className="text-brand-dark font-heading text-xl font-semibold text-center">
                                     Hire New Staff?
                                 </h3>
                             </div>
@@ -50,7 +50,7 @@ const Agitate = () => {
                         <div className="bg-background rounded-lg p-6 shadow-sm transition-all hover:shadow-md border hover:border-brand">
                             <div className="flex flex-col items-center gap-4 mb-4">
                                 <AlertCircle className="h-8 w-8 text-brand" />
-                                <h3 className="text-accent font-heading  text-xl font-semibold text-center">
+                                <h3 className="text-brand-dark font-heading  text-xl font-semibold text-center">
                                     Hire An Agency?
                                 </h3>
                             </div>

@@ -15,7 +15,7 @@ const ContactCTA = () => {
                         size="lg"
                         variant="brand"
                         asChild
-                        className="group bg-accent text-white"
+                        className="group border-white border text-white mt-12"
                     >
                         <Link href="/free-marketing-analysis">
                             Get in Touch{" "}

@@ -7,10 +7,10 @@ import { motion } from "framer-motion";
 
 const Hero = () => {
     return (
-        <section className="relative">
+        <section className="relative min-h-[70vh] flex items-center justify-center">
             <div className="absolute inset-0 -z-10" />
 
-            <div className="container mx-auto px-4 md:px-6 py-24 md:py-32">
+            <div className="container mx-auto my-auto px-4 md:px-6 ">
                 <motion.div
                     initial={{ opacity: 0, y: 50 }}
                     animate={{ opacity: 1, y: 0 }}
@@ -54,12 +54,12 @@ const Hero = () => {
                         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
                             <Button
                                 size="lg"
-                                className="font-body px-8 py-6 text-lg bg-[#1F51FF] text-white hover:bg-[#003a88]"
+                                className="font-body font-bold px-8 py-6 text-lg bg-[#1F51FF] text-white hover:bg-[#003a88]"
                                 asChild
                                 variant="brand"
                             >
                                 <Link href="/free-marketing-analysis">
-                                    Yes, I Want That!
+                                    Get A Free Marketing Analysis
                                 </Link>
                             </Button>
                         </div>

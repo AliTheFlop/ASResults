@@ -19,7 +19,7 @@ const Solution = () => {
                                     <Shield className="h-7 w-7 text-blue-600 dark:text-blue-400" />
                                 </div>
                                 <div>
-                                    <h3 className="text-accent font-heading text-xl font-semibold mb-2">
+                                    <h3 className="text-brand-dark font-heading text-xl font-semibold mb-2">
                                         Guarantee
                                     </h3>
                                     <p className="font-body text-muted-foreground">
@@ -38,7 +38,7 @@ const Solution = () => {
                                     <MapPin className="h-7 w-7 text-emerald-600 dark:text-emerald-400" />
                                 </div>
                                 <div>
-                                    <h3 className="text-accent font-heading  text-xl font-semibold mb-2">
+                                    <h3 className="text-brand-dark font-heading  text-xl font-semibold mb-2">
                                         Local
                                     </h3>
                                     <p className="font-body text-muted-foreground">
@@ -57,7 +57,7 @@ const Solution = () => {
                                     <Target className="h-7 w-7 text-purple-600 dark:text-purple-400" />
                                 </div>
                                 <div>
-                                    <h3 className="text-accent font-heading  text-xl font-semibold mb-2">
+                                    <h3 className="text-brand-dark font-heading  text-xl font-semibold mb-2">
                                         Results
                                     </h3>
                                     <p className="font-body text-muted-foreground">
@@ -74,7 +74,7 @@ const Solution = () => {
                                     <Briefcase className="h-7 w-7 text-amber-600 dark:text-amber-400" />
                                 </div>
                                 <div>
-                                    <h3 className="text-accent font-heading text-xl font-semibold mb-2">
+                                    <h3 className="text-brand-dark font-heading text-xl font-semibold mb-2">
                                         Specialization
                                     </h3>
                                     <p className="font-body text-muted-foreground">
