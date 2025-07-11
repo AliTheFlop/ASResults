@@ -2,7 +2,7 @@ import { Shield, MapPin, Target, Briefcase } from "lucide-react";
 
 const Solution = () => {
     return (
-        <section className="py-16 md:py-24 bg-[#FAFAFA] border-t border-[#E0E0E0]">
+        <section className="py-16 md:py-24 bg-[#FAFAFA]">
             <div className="container mx-auto px-4 md:px-6">
                 <div className="max-w-5xl mx-auto">
                     <div className="text-center mb-12">
