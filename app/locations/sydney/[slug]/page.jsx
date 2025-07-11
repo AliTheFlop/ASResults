@@ -5,22 +5,23 @@ import Link from "next/link";
 // Static routes for local SEO pre-rendering
 export async function generateStaticParams() {
     return [
-        { slug: "parramatta" },
-        { slug: "parramatta" },
-        { slug: "bondi" },
-        { slug: "manly" },
-        { slug: "surry-hills" },
-        { slug: "chatswood" },
-        { slug: "cronulla" },
-        { slug: "liverpool" },
-        { slug: "the-rocks" },
-        { slug: "darling-harbour" },
+        { slug: "digital-marketing-parramatta" },
+        { slug: "digital-marketing-bondi" },
+        { slug: "digital-marketing-newtown" },
+        { slug: "digital-marketing-manly" },
+        { slug: "digital-marketing-surry-hills" },
+        { slug: "digital-marketing-chatswood" },
+        { slug: "digital-marketing-cronulla" },
+        { slug: "digital-marketing-liverpool" },
+        { slug: "digital-marketing-the-rocks" },
+        { slug: "digital-marketing-darling-harbour" },
     ];
 }
 
 // SEO Metadata per location
 export async function generateMetadata({ params }) {
     const prettyName = params.slug
+        .replace("digital-marketing-", "")
         .replace(/-/g, " ")
         .replace(/\b\w/g, (c) => c.toUpperCase());
 
