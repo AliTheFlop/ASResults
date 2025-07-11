@@ -43,7 +43,7 @@ const Solution = () => {
                                     </h3>
                                     <p className="font-body text-muted-foreground">
                                         We are not tucked away in some anonymous
-                                        call center. We&apos;re a local company,
+                                        call center. We&apos;re based in Sydney,
                                         so you&apos;ll be able to reach us when
                                         you need us.
                                     </p>
