@@ -21,9 +21,9 @@ export async function generateStaticParams() {
 // SEO Metadata per location
 export async function generateMetadata({ params }) {
     const prettyName = params.slug
-        .replace("digital-marketing-", "")
-        .replace(/-/g, " ")
-        .replace(/\b\w/g, (c) => c.toUpperCase());
+        .replace("digital-marketing-", "") // remove the prefix
+        .replace(/-/g, " ") // convert dashes to spaces
+        .replace(/\b\w/g, (c) => c.toUpperCase()); // capitalize each word
 
     const title = `${prettyName} Digital Marketing | AS Results`;
     const description = `Local digital marketing for businesses in ${prettyName}, Sydney.`;
@@ -54,6 +54,7 @@ export async function generateMetadata({ params }) {
 
 export default function LocationPage({ params }) {
     const prettyName = params.slug
+        .replace("digital-marketing-", "")
         .replace(/-/g, " ")
         .replace(/\b\w/g, (c) => c.toUpperCase());
 

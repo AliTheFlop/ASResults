@@ -4,16 +4,18 @@ const Footer = () => {
     const currentYear = new Date().getFullYear();
 
     const sydneySpots = [
-        { name: "Parramatta", slug: "sydney/parramatta" },
-        { name: "Bondi Beach", slug: "sydney/bondi-beach" },
-        { name: "Newtown", slug: "sydney/newtown" },
-        { name: "Manly", slug: "sydney/manly" },
-        { name: "Surry Hills", slug: "sydney/surry-hills" },
-        { name: "Chatswood", slug: "sydney/chatswood" },
-        { name: "Cronulla", slug: "sydney/cronulla" },
-        { name: "Liverpool", slug: "sydney/liverpool" },
-        { name: "The Rocks", slug: "sydney/the-rocks" },
-        { name: "Darling Harbour", slug: "sydney/darling-harbour" },
+        { name: "Parramatta", slug: "sydney/digital-marketing-parramatta" },
+        { name: "Bondi Beach", slug: "sydney/digital-marketing-bondi-beach" },
+        { name: "Manly", slug: "sydney/digital-marketing-manly" },
+        { name: "Surry Hills", slug: "sydney/digital-marketing-surry-hills" },
+        { name: "Chatswood", slug: "sydney/digital-marketing-chatswood" },
+        { name: "Cronulla", slug: "sydney/digital-marketing-cronulla" },
+        { name: "Liverpool", slug: "sydney/digital-marketing-liverpool" },
+        { name: "The Rocks", slug: "sydney/digital-marketing-the-rocks" },
+        {
+            name: "Darling Harbour",
+            slug: "sydney/digital-marketing-darling-harbour",
+        },
     ];
 
     return (
