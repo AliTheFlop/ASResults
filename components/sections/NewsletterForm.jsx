@@ -51,7 +51,7 @@ const NewsletterForm = () => {
 
     if (isSubmitted) {
         return (
-            <div className="bg-muted rounded-lg p-8 text-center">
+            <div className="bg-muted w-full rounded-lg p-8 text-center">
                 <div className="w-16 h-16 bg-green-100 rounded-full mx-auto flex items-center justify-center mb-4">
                     <CheckCircle2 className="h-8 w-8 text-green-600" />
                 </div>
@@ -77,7 +77,7 @@ const NewsletterForm = () => {
     return (
         <form
             onSubmit={handleSubmit}
-            className="bg-card rounded-lg border p-6 shadow-sm max-w-xl mx-auto"
+            className="bg-card rounded-lg border p-6 shadow-sm max-w-xl mx-auto w-full"
         >
             {error && (
                 <div className="mb-4 p-3 bg-destructive/20 text-destructive rounded-md">

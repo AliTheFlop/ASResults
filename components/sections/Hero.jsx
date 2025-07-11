@@ -10,7 +10,7 @@ const Hero = () => {
         <section className="relative min-h-[70vh] flex items-center justify-center">
             <div className="absolute inset-0 -z-10" />
 
-            <div className="container mx-auto my-auto px-4 md:px-6 ">
+            <div className="container mx-auto my-auto px-4 md:px-6">
                 <motion.div
                     initial={{ opacity: 0, y: 50 }}
                     animate={{ opacity: 1, y: 0 }}
@@ -25,13 +25,14 @@ const Hero = () => {
                             duration: 0.6,
                             ease: "easeOut",
                         }}
-                        className="font-heading text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight mb-6 leading-tight"
+                        className="font-heading text-5xl max-[359px]:text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight mb-6 leading-tight"
                     >
-                        More growth. More clients.
-                        <br />
+                        <span className="block md:inline">More growth.</span>{" "}
+                        <span className="block md:inline">More clients.</span>
+                        <br className="hidden md:block" />
                         <span className="text-brand relative inline-block">
                             Guaranteed
-                            <div className="absolute inset-x-0 bottom-0 h-1 bg-stone-500/50 transform skew-x-12"></div>
+                            <div className="absolute inset-x-0 bottom-0 h-1 bg-stone-500/50 transform skew-x-12" />
                         </span>
                         .
                     </motion.h1>
@@ -49,12 +50,12 @@ const Hero = () => {
                             duration: 0.6,
                             ease: "easeOut",
                         }}
-                        className="mt-20 mb-2"
+                        className="mt-14 sm:mt-20 mb-2"
                     >
                         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
                             <Button
                                 size="lg"
-                                className="font-body font-bold px-8 py-6 text-lg bg-[#1F51FF] text-white hover:bg-[#003a88]"
+                                className="font-body font-bold px-8 py-6 text-base md:text-lg bg-[#1F51FF] text-white hover:bg-[#003a88]"
                                 asChild
                                 variant="brand"
                             >
