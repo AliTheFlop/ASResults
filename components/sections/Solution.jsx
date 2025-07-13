@@ -15,7 +15,7 @@ const Solution = () => {
                     <div className="grid md:grid-cols-2 gap-8">
                         <div className="bg-card rounded-lg p-6 shadow-sm hover:shadow-md transition-all border group">
                             <div className="flex gap-4">
-                                <div className="bg-blue-100/50 rounded-full w-14 h-14 flex items-center justify-center group-hover:scale-105 transition-transform shrink-0">
+                                <div className="bg-blue-100/50 rounded-full w-14 h-14 flex items-center justify-center group-hover:scale-105 transition-transform shrink-0 hover:border-brand">
                                     <Shield className="h-7 w-7 text-brand-dark" />
                                 </div>
                                 <div>
@@ -34,7 +34,7 @@ const Solution = () => {
 
                         <div className="bg-card rounded-lg p-6 shadow-sm hover:shadow-md transition-all border group">
                             <div className="flex gap-4">
-                                <div className="bg-blue-100/50 dark:bg-emerald-900/50 rounded-full w-14 h-14 flex items-center justify-center group-hover:scale-105 transition-transform shrink-0">
+                                <div className="bg-blue-100/50 rounded-full w-14 h-14 flex items-center justify-center group-hover:scale-105 transition-transform shrink-0 hover:border-brand">
                                     <MapPin className="h-7 w-7 text-brand-dark" />
                                 </div>
                                 <div>
@@ -53,7 +53,7 @@ const Solution = () => {
 
                         <div className="bg-card rounded-lg p-6 shadow-sm hover:shadow-md transition-all border group">
                             <div className="flex gap-4">
-                                <div className="bg-blue-100/50 dark:bg-purple-900/50 rounded-full w-14 h-14 flex items-center justify-center group-hover:scale-105 transition-transform shrink-0">
+                                <div className="bg-blue-100/50  rounded-full w-14 h-14 flex items-center justify-center group-hover:scale-105 transition-transform shrink-0 hover:border-brand">
                                     <Target className="h-7 w-7 text-brand" />
                                 </div>
                                 <div>
@@ -70,7 +70,7 @@ const Solution = () => {
 
                         <div className="bg-card rounded-lg p-6 shadow-sm hover:shadow-md transition-all border group">
                             <div className="flex gap-4">
-                                <div className="bg-blue-100/50 dark:bg-amber-900/50 rounded-full w-14 h-14 flex items-center justify-center group-hover:scale-105 transition-transform shrink-0">
+                                <div className="bg-blue-100/50 rounded-full w-14 h-14 flex items-center justify-center group-hover:scale-105 transition-transform shrink-0 hover:border-brand">
                                     <Briefcase className="h-7 w-7 text-brand" />
                                 </div>
                                 <div>
