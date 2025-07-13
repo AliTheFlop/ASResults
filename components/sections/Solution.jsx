@@ -19,7 +19,7 @@ const Solution = () => {
                                     <Shield className="h-7 w-7 text-brand-dark" />
                                 </div>
                                 <div>
-                                    <h3 className="text-brand-dark font-heading text-xl font-semibold mb-2">
+                                    <h3 className="text-brand font-heading text-xl font-semibold mb-2">
                                         Guarantee
                                     </h3>
                                     <p className="font-body text-muted-foreground">
@@ -38,7 +38,7 @@ const Solution = () => {
                                     <MapPin className="h-7 w-7 text-brand-dark" />
                                 </div>
                                 <div>
-                                    <h3 className="text-brand-dark font-heading  text-xl font-semibold mb-2">
+                                    <h3 className="text-brand font-heading  text-xl font-semibold mb-2">
                                         Local
                                     </h3>
                                     <p className="font-body text-muted-foreground">
@@ -54,7 +54,7 @@ const Solution = () => {
                         <div className="bg-card rounded-lg p-6 shadow-sm hover:shadow-md transition-all border group">
                             <div className="flex gap-4">
                                 <div className="bg-blue-100/50 dark:bg-purple-900/50 rounded-full w-14 h-14 flex items-center justify-center group-hover:scale-105 transition-transform shrink-0">
-                                    <Target className="h-7 w-7 text-brand-dark" />
+                                    <Target className="h-7 w-7 text-brand" />
                                 </div>
                                 <div>
                                     <h3 className="text-brand-dark font-heading  text-xl font-semibold mb-2">
@@ -71,7 +71,7 @@ const Solution = () => {
                         <div className="bg-card rounded-lg p-6 shadow-sm hover:shadow-md transition-all border group">
                             <div className="flex gap-4">
                                 <div className="bg-blue-100/50 dark:bg-amber-900/50 rounded-full w-14 h-14 flex items-center justify-center group-hover:scale-105 transition-transform shrink-0">
-                                    <Briefcase className="h-7 w-7 text-brand-dark" />
+                                    <Briefcase className="h-7 w-7 text-brand" />
                                 </div>
                                 <div>
                                     <h3 className="text-brand-dark font-heading text-xl font-semibold mb-2">
