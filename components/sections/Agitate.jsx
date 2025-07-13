@@ -14,7 +14,7 @@ const Agitate = () => {
                     </div>
 
                     <div className="grid md:grid-cols-3 gap-8">
-                        <div className="bg-background rounded-lg p-6 shadow-sm transition-all hover:shadow-md border hover:border-brand">
+                        <div className="rounded-lg p-6 shadow-sm transition-all hover:shadow-md border hover:border-brand">
                             <div className="flex flex-col items-center gap-4 mb-4">
                                 <Clock className="h-8 w-8 text-brand" />
                                 <h3 className="text-brand-dark font-heading text-xl font-semibold text-center">
@@ -29,7 +29,7 @@ const Agitate = () => {
                             </p>
                         </div>
 
-                        <div className="bg-background rounded-lg p-6 shadow-sm transition-all hover:shadow-md border hover:border-brand">
+                        <div className="rounded-lg p-6 shadow-sm transition-all hover:shadow-md border hover:border-brand">
                             <div className="flex flex-col items-center gap-4 mb-4">
                                 <UserX className="h-8 w-8 text-brand" />
                                 <h3 className="text-brand-dark font-heading text-xl font-semibold text-center">
@@ -47,7 +47,7 @@ const Agitate = () => {
                             </p>
                         </div>
 
-                        <div className="bg-background rounded-lg p-6 shadow-sm transition-all hover:shadow-md border hover:border-brand">
+                        <div className="rounded-lg p-6 shadow-sm transition-all hover:shadow-md border hover:border-brand">
                             <div className="flex flex-col items-center gap-4 mb-4">
                                 <AlertCircle className="h-8 w-8 text-brand" />
                                 <h3 className="text-brand-dark font-heading  text-xl font-semibold text-center">
