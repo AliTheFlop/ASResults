@@ -50,7 +50,7 @@ const ContactForm = () => {
             }
 
             window.dataLayer = window.dataLayer || [];
-            window.dataLayer.push({ event: "primary_form_success" });
+            window.dataLayer.push({ event: "google_ads_form_submit" });
 
             setIsSubmitted(true);
             setFormState({
