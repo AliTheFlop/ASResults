@@ -24,7 +24,7 @@ When I was about 10-12 years old, my favourite was **DanTDM**.
 
 If you’ve got kids, there’s a high chance you’ve heard of him. Fun dude to watch.
 
-The reason he’s so big, isn’t because he found some “secret” to engaging content.
+The reason he’s so big isn’t because he found some “secret” to engaging content.
 
 It’s all because he’s as _“human”_ as he can be, and people relate to that.
 
