@@ -24,7 +24,7 @@ const Footer = () => {
                 <div className="flex flex-col md:flex-row justify-between items-start gap-6">
                     {/* Brand */}
                     <div>
-                        <span className="text-lg font-semibold font-logo">
+                        <span className="text-lg font-black font-heading">
                             AS Results
                         </span>
                     </div>

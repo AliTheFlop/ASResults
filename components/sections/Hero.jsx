@@ -25,7 +25,7 @@ const Hero = () => {
                             duration: 0.6,
                             ease: "easeOut",
                         }}
-                        className="font-heading text-5xl max-[359px]:text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight mb-6 leading-tight"
+                        className="font-heading text-4xl max-[359px]:text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight mb-6 leading-tight"
                     >
                         <span className="block md:inline">More growth.</span>{" "}
                         <span className="block md:inline">More clients.</span>

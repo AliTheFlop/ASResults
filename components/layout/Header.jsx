@@ -33,7 +33,7 @@ const Header = () => {
                     <div className="flex items-center h-full">
                         <Link
                             href="/"
-                            className="font-medium font-logo text-2xl w-full"
+                            className="font-black font-heading text-xl w-full"
                         >
                             AS Results
                         </Link>
