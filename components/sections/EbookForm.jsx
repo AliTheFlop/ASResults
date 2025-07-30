@@ -42,7 +42,7 @@ const EbookForm = () => {
             router.push("/thank-you");
         } catch (err) {
             setError(err.message);
-            console.error("Newsletter signup error:", err);
+            console.error("Error:", err);
             setIsSubmitting(false);
         }
     };
@@ -61,9 +61,9 @@ const EbookForm = () => {
                 <div>
                     <label
                         htmlFor="email"
-                        className="block text-sm font-medium mb-1"
+                        className="block text-sm font-bold mb-2"
                     >
-                        Email Address
+                        To access the guide, please enter your business e-mail:
                     </label>
                     <Input
                         id="email"
@@ -71,7 +71,7 @@ const EbookForm = () => {
                         type="email"
                         value={email}
                         onChange={(e) => setEmail(e.target.value)}
-                        placeholder="your@email.com"
+                        placeholder="ali@asresults.com"
                         required
                     />
                 </div>
@@ -82,7 +82,7 @@ const EbookForm = () => {
                     variant="brand"
                     disabled={isSubmitting}
                 >
-                    {isSubmitting ? "Submitting..." : "Send Me The Guide"}
+                    {isSubmitting ? "Submitting..." : "Submit"}
                 </Button>
             </div>
         </form>
